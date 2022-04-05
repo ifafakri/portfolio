@@ -7,11 +7,10 @@ app.use(express.static('./node_modules/font-awesome'))
 const handlebars=require('express-handlebars')
 
 
-port=3000
 
 
 
-app.set('port',3000)
+app.set('port',process.env.PORT || 3000)
 app.engine('handlebars', handlebars.engine());
 app.set('view engine', 'handlebars');
 app.set('views', './views');
