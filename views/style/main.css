@@ -9,6 +9,10 @@ left:0 !important;
 color:white;
 
 }
+.navbar button{
+    color:#FF2543 !important;
+    border:solid 2px #FF2543 !important;
+}
 .navbar .navbar-brand{
 
     color:white !important;
