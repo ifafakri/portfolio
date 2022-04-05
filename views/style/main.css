@@ -1,0 +1,35 @@
+.navbar{width: 100%;
+
+position: fixed !important;
+top:0 !important;
+z-index: 10;
+left:0 !important;
+    background:linear-gradient(45deg,#131313,#151515);
+
+color:white;
+
+}
+.navbar .navbar-brand{
+
+    color:white !important;
+    
+    }
+
+    .navbar .navbar-brand:hover{
+
+        color:white;
+        
+        }
+.nav-item .nav-link {
+    color:white !important;
+margin:2%;
+font-size: 1.2rem;
+    
+}
+
+.nav-item i {font-size: 1.2rem;
+    color:#FF2543 !important;
+margin-left: 30%;
+
+    
+}

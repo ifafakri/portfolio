@@ -1,0 +1,67 @@
+.carousel{
+
+    background:linear-gradient(45deg,#131313,#151515);
+
+width:100%;
+
+
+
+}
+
+.description{position: relative;
+padding-top: 10%;
+padding-left: 15%;
+
+    clear: both;
+}
+.description h1{
+color:#FF2543 ;
+width: 100%;
+}
+.description p{
+    width: 100%;
+color:white;
+font-size: 18px;
+}
+.description button{width: 40%;
+
+
+    padding:10%;
+    border:solid 2px #FF2543 ;
+background:transparent;
+color:#FF2543 ;
+border-radius: 25%;
+}
+.logo{display: block;
+    position:relative;
+
+    left:0;
+    
+
+
+
+
+}
+
+
+#background{
+ 
+    position: relative;
+margin-top: 10%;
+width:80%;
+height: width;
+z-index: 7  !important;
+}
+#pngpicture{      position: relative;
+    z-index: 20 ;
+    margin-left: 20%;
+margin-top: -70%;
+    width: 40%;
+height: width;
+border-radius: 50%;
+
+}
+.elm{
+
+
+}

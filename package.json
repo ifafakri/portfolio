@@ -1,0 +1,25 @@
+{
+  "name": "porfolio",
+  "version": "1.0.0",
+  "description": "ifa fakhri portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifafakri/portfolio.git"
+  },
+  "author": "ifa fakhri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifafakri/portfolio/issues"
+  },
+  "homepage": "https://github.com/ifafakri/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "font-awesome": "^4.7.0"
+  }
+}
