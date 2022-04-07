@@ -1,10 +1,10 @@
-.carousel{
+header>.carousel{
 
-    background:linear-gradient(45deg,#131313,#151515);
+    background:linear-gradient(45deg,#131313,#151515) !important;
 
 width:100%;
-
-
+background-attachment: scroll;
+margin:0px;
 
 }
 
@@ -62,6 +62,178 @@ border-radius: 50%;
 
 }
 .elm{
+color:#ec485e;
+
+}
+
+
+.cards{
+    background:linear-gradient(45deg,#1d1d1d,#0c0b0b);
+    padding:1%;
+    color:white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.cards h2{
+    color:#FF2543 ;
+    text-align: center;
+}
+.cards i{
+   margin-left: 40%;
+    color:#FF2543 ;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+.stacks{
+    margin-bottom: 15vh;
+    margin-top: 20vh;
+}
+
+.skills{
+background-attachment: fixed;
+
+   width:100%;
+    background:url("Cloudy.svg");
+    background-size: cover;
+
+    margin:0px;
+}
+
+.container-fluid{
+   
+}
+.skills .cardsSK{position: relative;
+    border-radius: 7%;
+box-shadow: rgb(27, 27, 27) 2px 3px 4px 2px;
+    background:white;
+    margin:4%;
+   
+    padding:2%;
+
+
+}
+.cardsSK img{position: relative;
+    width: 35%;
+    margin-left: 25%;
+    height: width;
+margin-bottom: 2%;
+}
+
+.cardsSK h3{
+
+
+    font-family: Ubuntu;
+}
+
+#carouselExampleIndicators{
+
+}
+
+.projectDes{
+
+margin-bottom: 20px;
+    border-top: solid 2px white;
+padding:2% 0 0 2%;
+
+}
+
+.projectDes h3{
+color:white;
+text-transform: uppercase;
+}
+
+
+.projectDes p{
+    color:white;
+
+    font-size: 18px;
+
+}
+.techno .t{
+
+    border-top:solid 2px #FF2543;
+
+    border-right:solid 2px #FF2543;
+
+    border-left:none;
+color:white;
+background:#131313;
+padding:1%;
+margin:1%;
+
+    border-bottom:none;
+
+
+}
+.githubrep{
+color:white;
+background:#967bb6;
+border: none;
+font-size: 25px;
+padding:2%;
+border-top-right-radius:10%;
+transition-duration: 0.2s;}
+
+.githubrep:hover{
+    background-color: #0a0a0a;
+
+    color:white
+    
+    }
+
+    .githubrep:hover i{
+   color: #967bb6;
+        float:right;
+        transform: scale(1.5);
+        margin:1%;
+        }
+
+
+.githubrep i{   transition-duration: 0.2s;
+font-size: 30px;
+color:black;
+
+}
+
+.demo{
+    color:white;
+    background:#FF2543;
+    border: none;
+    font-size: 25px;
+    padding:2%;
+    border-top-right-radius:10%;
+transition-duration: 0.2s;
+}
+
+.demo:hover i{
+    color: #FF2543;
+         float:right;
+         transform: scale(1.5);
+         margin:1%;
+         }
+         .demo:hover{
+            background-color: #0a0a0a;
+        
+            color:white
+         }        
+ 
+ .demo i{   transition-duration: 0.2s;
+ font-size: 30px;
+ color:white;
+ 
+ }
+
+.project{background-attachment: scroll;
+    background:linear-gradient(45deg,#131313,#151515) !important;
+
+    padding:2% 0 0 2%;
+}
+
+#carouselExampleIndicators img{
+
+    width:100%;
+    height:30vh;
+
 
 
 }
