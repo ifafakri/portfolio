@@ -10,7 +10,7 @@ margin:0px;
 
 .description{position: relative;
 padding-top: 10%;
-padding-left: 15%;
+padding-left: 4%;
 
     clear: both;
 }
@@ -26,11 +26,11 @@ font-size: 18px;
 .description button{width: 40%;
 
 
-    padding:10%;
+    padding:2%;
     border:solid 2px #FF2543 ;
 background:transparent;
 color:#FF2543 ;
-border-radius: 25%;
+border-radius: 5%;
 }
 .logo{display: block;
     position:relative;
@@ -107,7 +107,7 @@ background-attachment: fixed;
 box-shadow: rgb(27, 27, 27) 2px 3px 4px 2px;
     background:white;
     margin:4%;
-   
+   max-width: 200px;
     padding:2%;
 
 
